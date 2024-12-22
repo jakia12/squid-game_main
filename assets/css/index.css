@@ -44,10 +44,11 @@ body {
   .marq_txt{
     font-family: 'squid';
   }
+ 
   .mar_wid {
-    width: 191px;
+    width: 212px;
     padding: 0 7px;
-  }
+}
   .Marquee {
     overflow: hidden;
     /* cursor: url("./images/hs1.png"), pointer !important; */
