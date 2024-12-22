@@ -1649,6 +1649,20 @@ footer .socials a img {
 
 /* ----------------------------@ 600px--------
 ------- */
+@media screen and (max-width:768px){
+    .hero-img-3 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        animation: backInRight 1s linear;
+        transform: scaleX(-1);
+        width: 139px;
+    }
+    .ft_img,.left{
+       display: none;
+    }
+    .ca{display: none;margin-bottom: 40px;}
+}
 
 @media (max-width: 600px) {
     h2 {
